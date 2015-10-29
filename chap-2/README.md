@@ -1,24 +1,38 @@
+Subcribe to  https://groups.google.com/forum/#!forum/ui-bactch2015
+- To learn JS and to post ur questions.
+
 ## Functions
  Just like variables, Functions can be defined anywhere in the code.
 	1. A Logical grouping of one or more expressions.
 	2. Invoked arbitrarily to execute the expressions.	
 
+ You call a function simply by using its name  followed by any parameters within the parantheses. "To invoke" a function is another way of saying "to call".
+
 ####Function Types
  Javascript provides several ways of defining them :
    1. Function Declaration
    2. Function Expression
-   3. Named Function Expression
-   4. Self Invoking Function
-   5. Self Invoking Anonymous Function
+   3. Callbacks
+   4. Named Function Expression
+   5. Self Invoking Function
+   6. Self Invoking Anonymous Function
 
 #### Function Declaration
    1. Parsed at pre-execution stage, when the browser prepares to execute the code. - Called hoisting functions.
    		Read More at: http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html
    2. Functions declared this way can be called both 'after' and 'before' the definition.
 
-#### Function Expression
-   1. A function in javascript is a first-class value, just like a number or string.
+#### Function Expression / Function literal Notation
+   1. A function in javascript is a first-class value, just like a number or string => Functions are data.
    2. Anywhere where you could put a value, you can also put a function.
+
+ FE is a special kind of data with two important features :
+ - They contain code.
+ - They are executable (can be invoked)
+
+#### Callback Functions
+   1. A function is just like any other data assigned to a variable.
+   2. It can be defined, deleted, copied and also can be passed as an argument.
 
 #### Named Function Expression
    1. A function expression that has a name is called NFE.
@@ -52,3 +66,11 @@ Create a function called calcCircumfrence:
 	Create a function called calcArea:
 	- Pass the radius to the function.
  	- Calculate the area based on the radius, and output "The area is NN".
+
+
+ 	## Some more Function Types
+ 	#### Inner (Private) Functions
+		1. Keeps the global namespace clean (smaller chance of naming collisions)
+		2. Privacy - You expose only the functions that you decide to the "outside world", keeping to yourself functionality that is not meant to be consumed by the rest of the application.
+
+
