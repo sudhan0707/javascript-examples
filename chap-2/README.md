@@ -68,9 +68,6 @@ Create a function called calcCircumfrence:
  	- Calculate the area based on the radius, and output "The area is NN".
 
 
- 	## Some more Function Types
- 	#### Inner (Private) Functions
-		1. Keeps the global namespace clean (smaller chance of naming collisions)
-		2. Privacy - You expose only the functions that you decide to the "outside world", keeping to yourself functionality that is not meant to be consumed by the rest of the application.
+ 
 
 
