@@ -36,8 +36,18 @@ Check out this article: http://davidwalsh.name/javascript-functions
 The environment consists of any local variables that were in-scope at the time that the closure was created.
 Read More @ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
+##### Further Reading on Closure
+Explaining JavaScript scope and closures (Robert Nyman) 
+Url: http://robertnyman.com/2008/10/09/explaining-javascript-scope-and-closures/
+Closures in JavaScript (James Padolsey)
+Url: http://james.padolsey.com/javascript/closures-in-javascript/
+JavasCript Closures at Jibbering.com
+Url: http://www.jibbering.com/faq/faq_notes/closures.html
+JavaScript Closures for Dummies
+Url: http://blog.morrisjohns.com/javascript_closures_for_dummies
 
 ##Objects
 1. An Object is very similar to an array but with the difference that you define the keys yourself.
 2. You can define objects either using object literal notation or Constructor Function
+
 
