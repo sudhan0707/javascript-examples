@@ -92,13 +92,14 @@ console.log(ts instanceof Array); // false
 function Shape (){ }
 Shape.prototype.name = 'shape';
 Shape.prototype.toString = function(){
-	retun this.name;
+	return this.name;
 };
 
 function TwoDShape (){}
 TwoDShape.prototype = Shape.prototype;
 TwoDShape.prototype.constructor = TwoDShape;
 TwoDShape.prototype.name = '2D shape';
+
 
 function Triangle (side, height){
 	this.side = side;
@@ -110,7 +111,6 @@ Triangle.prototype.name = 'Triangle';
 Triangle.prototype.getArea = function (){
 	return this.side * this.height / 2 ;
 }
-
 var ts = new Triangle(5, 10);
 console.log(ts.getArea());//25
 console.log(ts.toString()); // Triangle
